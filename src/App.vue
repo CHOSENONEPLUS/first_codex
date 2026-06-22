@@ -86,7 +86,7 @@ onUnmounted(() => {
 
 <template>
   <header class="site-header" :class="{ 'is-scrolled': isScrolled }">
-    <a class="brand" href="#top" aria-label="青炉餐厅首页" @click="closeMenu">
+    <a class="brand" href="#top" aria-label="青炉饭馆首页" @click="closeMenu">
       <span class="brand-mark">Q</span>
       <span>青炉</span>
     </a>
@@ -115,7 +115,7 @@ onUnmounted(() => {
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <p class="eyebrow">Seasonal Dining · Since 2026</p>
-        <h1 id="hero-title">青炉餐厅</h1>
+        <h1 id="hero-title">青炉饭馆</h1>
         <p class="hero-copy">把本地时令、炭火香气和一杯好酒，收进一张从容的城市餐桌。</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#reserve">预约今晚</a>
@@ -216,7 +216,7 @@ onUnmounted(() => {
   </main>
 
   <footer class="site-footer">
-    <span>青炉餐厅 · 上海市梧桐路 118 号</span>
+    <span>青炉饭馆 · 上海市梧桐路 118 号</span>
     <span>hello@qinglu.example · 021-8800-2026</span>
   </footer>
 </template>
